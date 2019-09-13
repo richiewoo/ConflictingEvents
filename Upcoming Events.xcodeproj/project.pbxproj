@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8547CA1022F20B2E00DFCBFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CA0F22F20B2E00DFCBFB /* AppDelegate.m */; };
-		8547CA1322F20B2E00DFCBFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CA1222F20B2E00DFCBFB /* ViewController.m */; };
 		8547CA1622F20B2E00DFCBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8547CA1422F20B2E00DFCBFB /* Main.storyboard */; };
 		8547CA1822F20B3000DFCBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8547CA1722F20B3000DFCBFB /* Assets.xcassets */; };
 		8547CA1B22F20B3000DFCBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8547CA1922F20B3000DFCBFB /* LaunchScreen.storyboard */; };
 		8547CA1E22F20B3000DFCBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CA1D22F20B3000DFCBFB /* main.m */; };
 		8547CA2822F20B3000DFCBFB /* Upcoming_EventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CA2722F20B3000DFCBFB /* Upcoming_EventsTests.m */; };
+		8547CA3422F20B6A00DFCBFB /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CA3322F20B6A00DFCBFB /* EventListViewController.m */; };
+		8547CA3B22F2122B00DFCBFB /* Utils+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CA3A22F2122B00DFCBFB /* Utils+Category.m */; };
+		8547CA3F22F243D400DFCBFB /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CA3E22F243D400DFCBFB /* Event.m */; };
+		8547CA4222F24D7800DFCBFB /* EventListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CA4122F24D7800DFCBFB /* EventListViewModel.m */; };
+		8547CA4422F24EAB00DFCBFB /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 8547CA4322F24EAB00DFCBFB /* mock.json */; };
+		8547CAA722F3644B00DFCBFB /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547CAA622F3644B00DFCBFB /* EventTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +35,6 @@
 		8547CA0B22F20B2E00DFCBFB /* Upcoming Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upcoming Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8547CA0E22F20B2E00DFCBFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8547CA0F22F20B2E00DFCBFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8547CA1122F20B2E00DFCBFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8547CA1222F20B2E00DFCBFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8547CA1522F20B2E00DFCBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8547CA1722F20B3000DFCBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8547CA1A22F20B3000DFCBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +43,17 @@
 		8547CA2322F20B3000DFCBFB /* Upcoming EventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upcoming EventsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8547CA2722F20B3000DFCBFB /* Upcoming_EventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Upcoming_EventsTests.m; sourceTree = "<group>"; };
 		8547CA2922F20B3000DFCBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8547CA3222F20B6900DFCBFB /* EventListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+		8547CA3322F20B6A00DFCBFB /* EventListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventListViewController.m; sourceTree = "<group>"; };
+		8547CA3922F2122B00DFCBFB /* Utils+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Utils+Category.h"; sourceTree = "<group>"; };
+		8547CA3A22F2122B00DFCBFB /* Utils+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Utils+Category.m"; sourceTree = "<group>"; };
+		8547CA3D22F243D400DFCBFB /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		8547CA3E22F243D400DFCBFB /* Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		8547CA4022F24D7800DFCBFB /* EventListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventListViewModel.h; sourceTree = "<group>"; };
+		8547CA4122F24D7800DFCBFB /* EventListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventListViewModel.m; sourceTree = "<group>"; };
+		8547CA4322F24EAB00DFCBFB /* mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		8547CAA522F3644B00DFCBFB /* EventTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		8547CAA622F3644B00DFCBFB /* EventTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +95,18 @@
 		8547CA0D22F20B2E00DFCBFB /* Upcoming Events */ = {
 			isa = PBXGroup;
 			children = (
+				8547CA3522F2119700DFCBFB /* ViewControllers */,
+				8547CA3622F211AC00DFCBFB /* ViewModels */,
+				8547CA3722F211BC00DFCBFB /* Views */,
+				8547CA3C22F243B300DFCBFB /* Models */,
+				8547CA3822F211DE00DFCBFB /* Utils */,
 				8547CA0E22F20B2E00DFCBFB /* AppDelegate.h */,
 				8547CA0F22F20B2E00DFCBFB /* AppDelegate.m */,
-				8547CA1122F20B2E00DFCBFB /* ViewController.h */,
-				8547CA1222F20B2E00DFCBFB /* ViewController.m */,
 				8547CA1422F20B2E00DFCBFB /* Main.storyboard */,
 				8547CA1722F20B3000DFCBFB /* Assets.xcassets */,
 				8547CA1922F20B3000DFCBFB /* LaunchScreen.storyboard */,
 				8547CA1C22F20B3000DFCBFB /* Info.plist */,
+				8547CA4322F24EAB00DFCBFB /* mock.json */,
 				8547CA1D22F20B3000DFCBFB /* main.m */,
 			);
 			path = "Upcoming Events";
@@ -101,6 +119,51 @@
 				8547CA2922F20B3000DFCBFB /* Info.plist */,
 			);
 			path = "Upcoming EventsTests";
+			sourceTree = "<group>";
+		};
+		8547CA3522F2119700DFCBFB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8547CA3222F20B6900DFCBFB /* EventListViewController.h */,
+				8547CA3322F20B6A00DFCBFB /* EventListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8547CA3622F211AC00DFCBFB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8547CA4022F24D7800DFCBFB /* EventListViewModel.h */,
+				8547CA4122F24D7800DFCBFB /* EventListViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8547CA3722F211BC00DFCBFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8547CAA522F3644B00DFCBFB /* EventTableViewCell.h */,
+				8547CAA622F3644B00DFCBFB /* EventTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8547CA3822F211DE00DFCBFB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8547CA3922F2122B00DFCBFB /* Utils+Category.h */,
+				8547CA3A22F2122B00DFCBFB /* Utils+Category.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8547CA3C22F243B300DFCBFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8547CA3D22F243D400DFCBFB /* Event.h */,
+				8547CA3E22F243D400DFCBFB /* Event.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +249,7 @@
 				8547CA1B22F20B3000DFCBFB /* LaunchScreen.storyboard in Resources */,
 				8547CA1822F20B3000DFCBFB /* Assets.xcassets in Resources */,
 				8547CA1622F20B2E00DFCBFB /* Main.storyboard in Resources */,
+				8547CA4422F24EAB00DFCBFB /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8547CA1322F20B2E00DFCBFB /* ViewController.m in Sources */,
+				8547CA3422F20B6A00DFCBFB /* EventListViewController.m in Sources */,
+				8547CA4222F24D7800DFCBFB /* EventListViewModel.m in Sources */,
 				8547CA1E22F20B3000DFCBFB /* main.m in Sources */,
+				8547CA3F22F243D400DFCBFB /* Event.m in Sources */,
 				8547CA1022F20B2E00DFCBFB /* AppDelegate.m in Sources */,
+				8547CA3B22F2122B00DFCBFB /* Utils+Category.m in Sources */,
+				8547CAA722F3644B00DFCBFB /* EventTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
